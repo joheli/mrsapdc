@@ -1,8 +1,8 @@
 # mrsapdc
-An R package estimating probability of MRSA carriage and positive predictive value of a diagnostic test.
+A R package estimating probability of MRSA carriage and the positive predictive value of a diagnostic test.
 
 # Installation
-Make sure you have R and package devtools installed. Then type `devtools::install_github("joheli/mrsapdc")`.
+Make sure you have [R](https://www.r-project.org/) and package [devtools](https://cran.r-project.org/web/packages/devtools/index.html) installed. Then, type `devtools::install_github("joheli/mrsapdc")` to install package 'mrsapdc'.
 
 # Usage
 After loading the library with the command `library(mrsapdc)`, get help on the main function by typing `?mrsa.pdc`.
