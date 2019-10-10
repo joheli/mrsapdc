@@ -1,5 +1,12 @@
 # mrsapdc
-A R package estimating probability of MRSA carriage and the positive predictive value of a diagnostic test.
+A R package estimating the probability of nasal Methicillin-resistant *Staphylococcus auraus* (MRSA) carriage in hospital admissions and the positive predictive value of a diagnostic test for said admission given the following parameters:
+* risk factors for nasal carriage, including
+  * age
+  * nursing home residence
+  * emergency admission
+  * ICD-10 admission diagnosis header
+* prevalence of MRSA nasal carriage among admissions
+* sensitivity and specificity of a diagnostic test used for screening 
 
 # Installation
 Make sure you have [R](https://www.r-project.org/) and package [devtools](https://cran.r-project.org/web/packages/devtools/index.html) installed. Then, type `devtools::install_github("joheli/mrsapdc")` to install package 'mrsapdc'.
