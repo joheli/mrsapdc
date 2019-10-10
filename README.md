@@ -1,5 +1,5 @@
 # mrsapdc
-A R package estimating the probability of nasal Methicillin-resistant *Staphylococcus auraus* (MRSA) carriage in hospital admissions and the positive predictive value of a diagnostic test for said admission given the following parameters:
+A R package estimating the probability of nasal Methicillin-resistant *Staphylococcus auraus* (MRSA) carriage in hospital admissions and the positive predictive value of a diagnostic test for same admissions, given the following parameters:
 * risk factors for nasal carriage, including
   * age
   * nursing home residence
